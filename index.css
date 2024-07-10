@@ -1,0 +1,213 @@
+.color-grid {
+    display: flex;
+    flex-wrap: wrap;
+    border: 20px black solid;
+    margin: 20px;
+}
+
+.color-grid-item { 
+    height: 250px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 15px rgb(80, 80, 80) solid; */
+    color: black;
+    box-sizing: border-box;
+}
+
+.box-text { 
+    margin: auto;
+}
+
+.box-1 {
+    background-color: blue;
+    color: white;
+    flex: 0 0 33.33%;
+    border-top: 15px rgb(80, 80, 80) solid;
+    border-left: 15px rgb(80, 80, 80) solid;
+    border-bottom: 7.5px rgb(80, 80, 80) solid;
+    border-right: 7.5px rgb(80, 80, 80) solid;
+}
+
+.box-2 {
+    background-color: yellow; 
+    color: black;
+    flex: 0 0 33.33%;
+    border-left: 7.5px rgb(80, 80, 80) solid;
+    border-top: 15px rgb(80, 80, 80) solid;
+    border-bottom: 7.5px rgb(80, 80, 80) solid;
+    border-right: 7.5px rgb(80, 80, 80) solid;
+}
+
+.box-3 {
+    background-color: red; 
+    color: black;
+    flex: 0 0 33.33%;
+    border-top: 7.5px rgb(80, 80, 80) solid;
+    border-left: 15px rgb(80, 80, 80) solid;
+    border-bottom: 15px rgb(80, 80, 80) solid;
+    border-right: 7.5px rgb(80, 80, 80) solid;
+}
+
+.box-4 {
+    background-color: limegreen;
+    color: black;
+    flex: 0 0 33.33%;
+    border-top: 15px rgb(80, 80, 80) solid;
+    border-left: 7.5px rgb(80, 80, 80) solid;
+    border-bottom: 7.5px rgb(80, 80, 80) solid;
+    border-right: 15px rgb(80, 80, 80) solid;
+}
+
+.box-5 {
+    background-color: rgb(254, 45, 244);
+    color: black;
+    flex: 0 0 66.66%;
+    border-top: 7.5px rgb(80, 80, 80) solid;
+    border-left: 7.5px rgb(80, 80, 80) solid;
+    border-bottom: 15px rgb(80, 80, 80) solid;
+    border-right: 15px rgb(80, 80, 80) solid;
+}
+
+
+.color-grid2 {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 250px 250px;
+    border: 20px black solid;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.color-grid-item2 { 
+    height: 250px; 
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    box-sizing: border-box;
+}
+
+.box2-1 {
+    background-color: blue;
+    color: white;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    border-top: 15px rgb(80, 80, 80) solid;
+    border-left: 15px rgb(80, 80, 80) solid;
+    border-bottom: 7.5px rgb(80, 80, 80) solid;
+    border-right: 7.5px rgb(80, 80, 80) solid;
+}
+
+.box2-2 {
+    background-color: yellow; 
+    color: black;
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+    border-left: 7.5px rgb(80, 80, 80) solid;
+    border-top: 15px rgb(80, 80, 80) solid;
+    border-bottom: 7.5px rgb(80, 80, 80) solid;
+    border-right: 7.5px rgb(80, 80, 80) solid;
+}
+
+.box2-3 {
+    background-color: red; 
+    color: black;
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+    border-top: 7.5px rgb(80, 80, 80) solid;
+    border-left: 15px rgb(80, 80, 80) solid;
+    border-bottom: 15px rgb(80, 80, 80) solid;
+    border-right: 7.5px rgb(80, 80, 80) solid;
+}
+
+.box2-4 {
+    background-color: limegreen;
+    color: black;
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 1;
+    border-top: 15px rgb(80, 80, 80) solid;
+    border-left: 7.5px rgb(80, 80, 80) solid;
+    border-bottom: 7.5px rgb(80, 80, 80) solid;
+    border-right: 15px rgb(80, 80, 80) solid;
+}
+
+.box2-5 {
+    background-color: rgb(254, 45, 244);
+    color: black;
+    grid-column: 2 / span 2;
+    grid-row: 2 / span 1;
+    border-top: 7.5px rgb(80, 80, 80) solid;
+    border-left: 7.5px rgb(80, 80, 80) solid;
+    border-bottom: 15px rgb(80, 80, 80) solid;
+    border-right: 15px rgb(80, 80, 80) solid;
+}
+
+.color-grid3 {
+    border: 20px black solid;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.color-grid-item3 { 
+    height: 250px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    box-sizing: border-box;
+}
+
+
+.box3-1 {
+    background-color: blue;
+    color: white;
+    border-top: 15px rgb(80, 80, 80) solid;
+    border-left: 15px rgb(80, 80, 80) solid;
+    border-bottom: 7.5px rgb(80, 80, 80) solid;
+    border-right: 7.5px rgb(80, 80, 80) solid;
+}
+
+.box3-2 {
+    background-color: yellow; 
+    color: black;
+    border-left: 7.5px rgb(80, 80, 80) solid;
+    border-top: 15px rgb(80, 80, 80) solid;
+    border-bottom: 7.5px rgb(80, 80, 80) solid;
+    border-right: 7.5px rgb(80, 80, 80) solid;
+}
+
+.box3-3 {
+    background-color: red; 
+    color: black;
+    border-top: 7.5px rgb(80, 80, 80) solid;
+    border-left: 15px rgb(80, 80, 80) solid;
+    border-bottom: 15px rgb(80, 80, 80) solid;
+    border-right: 7.5px rgb(80, 80, 80) solid;
+}
+
+.box3-4 {
+    background-color: limegreen;
+    color: black;
+    border-top: 15px rgb(80, 80, 80) solid;
+    border-left: 7.5px rgb(80, 80, 80) solid;
+    border-bottom: 7.5px rgb(80, 80, 80) solid;
+    border-right: 15px rgb(80, 80, 80) solid;
+}
+
+.box3-5 {
+    background-color: rgb(254, 45, 244);
+    color: black;
+    border-top: 7.5px rgb(80, 80, 80) solid;
+    border-left: 7.5px rgb(80, 80, 80) solid;
+    border-bottom: 15px rgb(80, 80, 80) solid;
+    border-right: 15px rgb(80, 80, 80) solid;
+}
+
+p {
+    text-align: center;
+}
+
+.name {
+    margin-top: 20px;
+}
